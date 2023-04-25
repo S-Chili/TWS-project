@@ -32,6 +32,11 @@ $desktop: 1280px;
 
   // для бордеру пагінації
   --pagination-border-color: #eaebea;
+
+  --btn-brgr-light-fill: #202025;
+  --btn-brgr-light-backgr: rgba(241, 236, 236, 0.226);
+
+  --bgr-col-header-scr: rgba(241, 236, 236, 0.8);
 }
 
 :root[data-theme='dark'] {
@@ -43,4 +48,7 @@ $desktop: 1280px;
   --text-secondary-color: #fcfcfc;
   --text-tertiary-color: #bdbdbd;
   --pagination-border-color: #4f4e4e;
+  --btn-brgr-light-fill: #eeeef0;
+  --btn-brgr-light-backgr: rgba(37, 36, 36, 0.226);
+  --bgr-col-header-scr: rgba(47, 46, 46, 0.8);
 }
